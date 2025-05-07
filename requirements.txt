@@ -1,0 +1,44 @@
+# Core Dependencies
+numpy
+pandas
+requests
+matplotlib
+seaborn
+scikit-learn
+tqdm
+spacy
+shap
+optuna
+bs4
+re
+pydub
+werkzeug
+Pillow
+Flask
+librosa
+text-cleaner
+langdetect
+transformers
+
+# PySpark and Kafka
+pyspark
+kafka-python
+
+# MongoDB and Neo4j
+pymongo
+neo4j
+
+# Audio and Speech
+speechrecognition
+torchaudio
+ffmpeg-python
+
+# Torch & Reinforcement Learning
+torch
+stable-baselines3[extra]
+sb3-contrib
+gymnasium
+
+# Logging and Utilities
+logging
+threading
