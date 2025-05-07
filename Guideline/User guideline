@@ -1,0 +1,30 @@
+# Do these below before you run the code every time
+Follow step by step:
+1. Download Ubuntu 22.04.5 LTS (Jammy Jellyfish) (https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso)
+
+2. Follow steps in Appendix A (https://docs.google.com/document/d/1XWQjx1A6kYYNf67U3wGeeTDOYbf8WOUC/edit?usp=drive_link&ouid=113432680517543542164&rtpof=true&sd=true)
+
+3. Follow steps in '0 In the beginning.._' file (https://docs.google.com/document/d/1wfj3bDukCwpjZttP-xAIN0m04yM9rxSo/edit?usp=drive_link&ouid=113432680517543542164&rtpof=true&sd=true)
+Note 1: Between step 2.2 and step 2.3 in the '0 In the beginning.._' file, you need to start Zookeeper and Kafka as well.
+Note 2: Between step 5 and step 6 in the '0 In the beginning.._' file, you need to manually create a folder named "DE" in C:\ drive.
+Note 3: After step 7.2 in the '0 In the beginning.._' file, type 'jupyter lab' and click the link appeared in PowerShell.
+
+4. Download all the .py files in all the 6 folders. 
+
+5. Upload all the .py downloaded in the folder 'de-prj'.
+
+6. Open terminal and typing the below one after another after it finished runnning:
+python Task1.py
+python Task2.py
+python Task3.py
+python Task4.py
+python Task5.py
+
+
+!!!
+To close the jupyter lab, click 'File' and choose 'Shut down'. DO NOT STRAIGHT AWAY CLOSE THE TAB.
+
+After than you will be back to PowerShell, and follow Appendix B (https://docs.google.com/document/d/13kObPws_WnqOCJ3ciZS8xtKgEBanXPdS/edit#heading=h.36jbn1btzee6) 
+to stop the Kafka followed by Zookeeper followed YARN and lastly followed by HDFS.
+
+IF ANY STEPS ARE MISSING, IT MIGHT LEAD TO DATA CORRUPTION, PERFORMANCE DEGRADATION OR EVEN EXPOSED SECURITY RISKS.
